@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kubernetes imagePullSecrets
 categories: [Kubernetes, Docker]
 ---

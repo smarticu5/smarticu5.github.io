@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Initial Commit - Welcome to my Blog
 categories: [Meta]
 ---
