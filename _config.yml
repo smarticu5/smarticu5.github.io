@@ -14,3 +14,20 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+site_locale: "en-GB"
+title_separator: "|"
+show_date: true
+
+twitter:
+  username: "smarticu5"
+
+author:
+  name     : "Iain Smart"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "I do container security and write bad home automations."
+  location : "Scotland"
+  links:
+  - label: "Twitter"
+    icon: "fab fa-fw fa-twitter-square"
+    url: "https://twitter.com/smarticu5"
