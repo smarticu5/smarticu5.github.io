@@ -24,7 +24,7 @@ twitter:
 
 author:
   name     : "Iain Smart"
-  avatar   : "/assets/images/bio-photo.jpg"
+  avatar   : "https://s.gravatar.com/avatar/38a37cf99e21c8c6e9a79c15ae75ab0f?s=240"
   bio      : "I do container security and write bad home automations."
   location : "Scotland"
   links:
