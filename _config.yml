@@ -1,6 +1,6 @@
 title: Adventures in Containerland
 description: Just a scratchpad where I can keep track of some musings. 
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 url: https://smarticu5.github.io/
 
