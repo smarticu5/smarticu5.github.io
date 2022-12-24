@@ -5,4 +5,12 @@ remote_theme: "mmistakes/minimal-mistakes"
 url: https://smarticu5.github.io/
 
 aux_links: # remove if you don't want this link to appear on your pages
-  Template Repository: https://github.com/smarticu5/smarticu5.github.io
+  Main: https://github.com/smarticu5/smarticu5.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
