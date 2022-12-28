@@ -1,5 +1,5 @@
 ---
-title: "RCE-As-A-Service"
+title: "RCE-As-A-Service: Lessons Learned from 5 Years of Real World CI/CD Pipeline Compromise"
 excerpt: "Presented at Blackhat USA 2022."
 # header:
 #   image: /assets/images/foo-bar-identity.jpg
@@ -23,8 +23,6 @@ excerpt: "Presented at Blackhat USA 2022."
 #     alt: "placeholder image 3"
 ---
 
-# RCE-As-A-Service: Lessons Learned from 5 Years of Real World CI/CD Pipeline Compromise
-
 Originally presented at [Blackhat USA 2022](https://www.blackhat.com/us-22/briefings/schedule/#rce-as-a-service-lessons-learned-from--years-of-real-world-cicd-pipeline-compromise-27541)
 
 In the past 5 years, we've demonstrated countless supply chain attacks in production CI/CD pipelines for virtually every company we've tested, with several dozen successful compromises of targets ranging from small businesses to Fortune 500 companies across almost every market and industry.
@@ -35,4 +33,6 @@ Is code-signing leading your team into a false sense of security while you progr
 
 Fortunately, this presentation will not only teach you exactly how we did it and the common weaknesses we see in these environments, but also share key defensive takeaways that you can immediately apply to your own development environments.
 
-[Talk Recording here](https://www.youtube.com/watch?v=Pe9nJLZvABM)
+[Link to recording](https://www.youtube.com/watch?v=Pe9nJLZvABM)
+
+[Link to Slides](/assets/talks/RCE-as-a-Service.pdf)
