@@ -45,9 +45,17 @@ defaults:
       path: ""
       type: talks
     values:
+      show_date: true
       layout: single
       author_profile: true
-
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
 collections:
   talks:
     output: true
