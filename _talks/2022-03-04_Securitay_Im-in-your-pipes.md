@@ -1,5 +1,5 @@
 ---
-title: "RCE-As-A-Service: Lessons Learned from 5 Years of Real World CI/CD Pipeline Compromise"
+title: "I'm In Your Pipes, Stealing Your Secrets"
 excerpt: "Presented at Securi-Tay 2022."
 ---
 
