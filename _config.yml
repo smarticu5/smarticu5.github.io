@@ -37,6 +37,8 @@ author:
     icon: "fab fa-fw fa-twitter-square"
     url: "https://twitter.com/smarticu5"
 
+include: ["_pages"]
+
 defaults:
   # _talks
   - scope:
