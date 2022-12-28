@@ -7,6 +7,11 @@ url: https://smarticu5.github.io/
 aux_links: # remove if you don't want this link to appear on your pages
   Main: https://github.com/smarticu5/smarticu5.github.io
 
+minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+atom_feed:
+  hide: true
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -44,4 +49,4 @@ defaults:
 collections:
   talks:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
