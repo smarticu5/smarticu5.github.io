@@ -31,3 +31,17 @@ author:
   - label: "Twitter"
     icon: "fab fa-fw fa-twitter-square"
     url: "https://twitter.com/smarticu5"
+
+defaults:
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:path/
