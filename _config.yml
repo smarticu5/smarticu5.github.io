@@ -23,6 +23,7 @@ plugins:
 site_locale: "en-GB"
 title_separator: "|"
 show_date: true
+date_format: "%Y-%m-%d"
 
 twitter:
   username: "smarticu5"
