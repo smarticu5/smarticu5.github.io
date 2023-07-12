@@ -1,6 +1,5 @@
 ---
-layout: post
-title:  "Kubernetes 1.24 Public Audit"
+title: "Kubernetes 1.24 Public Audit"
 ---
 
 Originally posted by NCC Group at https://research.nccgroup.com/2023/04/17/public-report-kubernetes-1-24-security-audit/
