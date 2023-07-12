@@ -12,5 +12,5 @@ Key findings included:
 - Flaws in communication between the API Server and the Kubelet which may result in an elevation of privilege 
 - Flaws in input sanitization which provide a limited authorization bypass (publicly disclosed under [CVE-2022-3162](https://github.com/kubernetes/kubernetes/issues/113756)) 
 
-Report available from [https://research.nccgroup.com/wp-content/uploads/2023/04/NCC_Group_CloudNativeComputingFoundation_E003660_Report_v1.2.pdf]() and mirrored at [/assets/NCC_Group_CloudNativeComputingFoundation_E003660_Report_v1.2.pdf]
+Report available from [research.nccgroup.com](https://research.nccgroup.com/wp-content/uploads/2023/04/NCC_Group_CloudNativeComputingFoundation_E003660_Report_v1.2.pdf) and mirrored [here](/assets/NCC_Group_CloudNativeComputingFoundation_E003660_Report_v1.2.pdf)
 
