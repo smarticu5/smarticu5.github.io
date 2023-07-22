@@ -1,6 +1,6 @@
 ---
 title: "Container Security Workshop"
-excerpt: "Steelcon 2023"
+excerpt: "Presented at Steelcon 2023"
 ---
 
 Presented at [Steelcon 2023](https://www.steelcon.info/)
