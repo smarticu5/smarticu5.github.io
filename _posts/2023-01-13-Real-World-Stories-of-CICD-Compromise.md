@@ -15,7 +15,7 @@ Through showing many different flavors of attack on possible development pipelin
 
 ## Jenkins with multiple attack angles
 
-The first 3 attack stories are related to [Jenkins](https://www.jenkins.io/), a leading tool in CI/CD used by many companies and one of our consultants came across when working on multiple assessments for major software companies.   
+The first 3 attack stories are related to [Jenkins](https://www.jenkins.io/), a leading tool in CI/CD used by many companies and one of our consultants came across when working on multiple assessments for major software companies. 
 
 ### Attack #1: “It Always Starts with an S3 Bucket…”
 
@@ -117,7 +117,7 @@ All that the consultant could do was commit code to a single Java library that w
 
 There was another job where NCC Group consultant compromised one user account and had access to a pipeline that was authenticated to the developer group. Running custom code was not possible in the pipeline, but they could tell the pipeline to build off a different branch even if it did not exist. The pipeline crashed and dumped out environment variables. One of the environment variables was a Windows domain administrator account. The blue team saw the pipeline crash but did not investigate.
 
-In our final story, NCC Group consultants were on an assessment in which they landed in the middle of the pipeline. They were able to port scan the infrastructure that turned out to be a build pipeline. They found a number of applications with (as of then) unknown functionality. One of the applications was vulnerable to server-side request forgery (SSRF)  and they were running on AWS EC2 instances. The AWS nodes had the ability to edit config maps that allow mapping between an AWS user account and a role inside the cluster. It turned out that this didn’t check if the cluster and the account are in the same user account. As a result, the consultants were able to specify another AWS account to control the clusters and had admin privileges on the Elastic Kubernetes Service cluster (EKS).
+In our final story, NCC Group consultants were on an assessment in which they landed in the middle of the pipeline. They were able to port scan the infrastructure that turned out to be a build pipeline. They found a number of applications with (as of then) unknown functionality. One of the applications was vulnerable to server-side request forgery (SSRF) and they were running on AWS EC2 instances. The AWS nodes had the ability to edit config maps that allow mapping between an AWS user account and a role inside the cluster. It turned out that this didn’t check if the cluster and the account are in the same user account. As a result, the consultants were able to specify another AWS account to control the clusters and had admin privileges on the Elastic Kubernetes Service cluster (EKS).
 
 ## Summary
 
