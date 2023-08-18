@@ -62,7 +62,7 @@ data:
     {%- elif trigger.id == "volume_down" -%}
     {{float(min(office_remote_volume,state_attr("media_player.sonos_office",
     "volume_level")))}}  {%- endif -%}
-    {% raw %}
+    {% endraw %}
 target:
   entity_id: media_player.sonos_office
 ```
