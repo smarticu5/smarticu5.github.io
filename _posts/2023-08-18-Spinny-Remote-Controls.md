@@ -1,8 +1,8 @@
 ---
 title: "Spinny Remote Controls"
-- tags:
-  - homeassistant
-  - automation
+tags:
+- homeassistant
+- automation
 ---
 
 This is hopefully the first of multiple posts details home automations I've written for [home-assistant.io]() which are interesting enough to talk about. The posts are probably going to be a reminder for me about what I wrote and how, rather than a tutorial. 
