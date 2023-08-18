@@ -1,5 +1,8 @@
 ---
 title: "Spinny Remote Controls"
+- tags:
+  - homeassistant
+  - automation
 ---
 
 This is hopefully the first of multiple posts details home automations I've written for [home-assistant.io]() which are interesting enough to talk about. The posts are probably going to be a reminder for me about what I wrote and how, rather than a tutorial. 
@@ -51,6 +54,7 @@ The workaround for this was to check if the remote was being rotated left or rig
 service: media_player.volume_set
 data:
   volume_level: >
+    {% raw %}
     {% set office_remote_volume =
     float(state_attr('sensor.spinny_remote_action', 'brightness')/255) |
     round(2)%}  {%- if trigger.id == "volume_up" -%}
@@ -58,6 +62,9 @@ data:
     {%- elif trigger.id == "volume_down" -%}
     {{float(min(office_remote_volume,state_attr("media_player.sonos_office",
     "volume_level")))}}  {%- endif -%}
+    {% raw %}
 target:
   entity_id: media_player.sonos_office
 ```
+
+Incidentally, posting this blog also taught me that Jekyll tries to render Home Assistant templates, and that makes GitHub Actions fail. Sad times. 
