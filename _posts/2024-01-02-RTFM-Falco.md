@@ -2,6 +2,7 @@
 title: "Read The Falco Manual"
 tags:
 - kubernetes
+excerpt: I need to read docs better. This post is to give myself a nice copy-paste for next time I want to do the thing I spent today doing, without reading again. 
 ---
 
 ## Intro
