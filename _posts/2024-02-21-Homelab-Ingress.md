@@ -14,7 +14,7 @@ I run `home.domain.com` for my apps hosted in a RKE2 Kubernetes cluster, with wi
 
 Last week I deployed [UptimeKuma](https://github.com/louislam/uptime-kuma) as a dashboard, hosted as an add-on to Home Assistant. This meant it was outside my Kubernetes cluster, as Home Assistant runs on its own machine. I also run a couple of other services extra-cluster, and until recently handled their own TLS manually. This meant running cronjobs on a schedule on each device, and issuing a number of certificates which were likely not fully required. 
 
-After some digging I realised that Kubernetes supports [ExternalName Services](https://kubernetes.io/docs/concepts/services-networking/service/#externalname), which are basically in-cluster MX records. This means you can create a service in cluster which can be reached through your ingress/load balancer of choice, and have cert-manager still provision certificates. There's still technically cleartext or non-trusted TLS happening between the cluster and that end service but for my homelab non-production needs, this is an accepted risk. 
+After some digging I realised that Kubernetes supports [ExternalName Services](https://kubernetes.io/docs/concepts/services-networking/service/#externalname), which are basically in-cluster CNAME records. This means you can create a service in cluster which can be reached through your ingress/load balancer of choice, and have cert-manager still provision certificates. There's still technically cleartext or non-trusted TLS happening between the cluster and that end service but for my homelab non-production needs, this is an accepted risk. 
 
 Setting this up was relatively trivial. I created a service that points to my Home Assistant Device:
 
