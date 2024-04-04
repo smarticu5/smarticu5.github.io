@@ -1,10 +1,9 @@
 ---
-title: "Container Security Workshop"
-excerpt: "Presented at Securi-Tay 2024"
+title: "I'll Let Myself In"
+excerpt: "Presented at Kubecon EU 2024"
 ---
 
 Presented at [Kubecon Europe 2024](https://kccnceu2024.sched.com/event/1YeR0)
-
 
 Penetration testing Kubernetes shouldn't be easy, but we can make it so! Rogue SRE insider threat? Platform developers with grudges? Hostile internet citizens? Discover how to escalate your privilege, attain persistence, wreak cluster-wide havoc, and hide any trace of your activity in this enthralling exploration of cloud native security! 
 
