@@ -1,0 +1,6 @@
+.hugo_build.lock
+Gemfile
+Gemfile.lock
+_site/
+public/
+
