@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Talks on Adventures in Containerland</title>
+    <link>http://localhost:1313/talks/</link>
+    <description>Recent content in Talks on Adventures in Containerland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;ll Let Myself In: Kubernetes Privilege Escalation Tactics</title>
+      <link>http://localhost:1313/talks/2024-03-20-kubecon-eu-ill-let-myself-in/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/2024-03-20-kubecon-eu-ill-let-myself-in/</guid>
+      <description>A selection of escalation and persistence tactics in Kubernetes, presented at Kubecon EU 2024</description>
+    </item>
+    <item>
+      <title>Container Security Workshop</title>
+      <link>http://localhost:1313/talks/2024-03-01-securitay-container-security-workshop/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/2024-03-01-securitay-container-security-workshop/</guid>
+      <description>Introduction to Docker and Kubernetes security, presented at Securi-Tay 2024</description>
+    </item>
+    <item>
+      <title>Container Security Workshop</title>
+      <link>http://localhost:1313/talks/2023-07-07-steelcon-container-security-workshop/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/2023-07-07-steelcon-container-security-workshop/</guid>
+      <description>Introduction to Docker and Kubernetes security, presented at Steelcon 2023</description>
+    </item>
+    <item>
+      <title>RCE-As-A-Service: Lessons Learned from 5 Years of Real World CI/CD Pipeline Compromise</title>
+      <link>http://localhost:1313/talks/2022-08-10-blackhat-usa-rce-as-a-service/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/2022-08-10-blackhat-usa-rce-as-a-service/</guid>
+      <description>A summary of frequently observed CI/CD attacks. Presented at Blackhat USA 2022.</description>
+    </item>
+    <item>
+      <title>I&#39;m In Your Pipes, Stealing Your Secrets</title>
+      <link>http://localhost:1313/talks/2022-03-04-securitay-im-in-your-pipes/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/2022-03-04-securitay-im-in-your-pipes/</guid>
+      <description>Discussions of CI/CD pipeline breakout techniques. Presented at Securi-Tay 2022.</description>
+    </item>
+  </channel>
+</rss>

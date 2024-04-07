@@ -1,0 +1,40 @@
+baseURL: 'https://smarticu5.github.io'
+title: 'Adventures in Containerland'
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+enableEmoji: true
+
+minifiy:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: talks
+      name: Talks
+      url: /talks/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about
+      weight: 30
+
+params:
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: Hi There 👋
+    Content: I do container security and write bad home automations. Sometimes I write about them here.
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/smarticu5"
+    - name: "Twitter"
+      url: "https://twitter.com/smarticu5"
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/iainsmart/"
