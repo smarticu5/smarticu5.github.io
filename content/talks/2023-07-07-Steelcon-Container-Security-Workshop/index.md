@@ -2,6 +2,8 @@
 title: "Container Security Workshop"
 summary: "Introduction to Docker and Kubernetes security, presented at Steelcon 2023"
 date: 2023-07-07T00:00:00Z
+aliases:
+- /talks/Steelcon-Container-Security-Workshop/
 ---
 
 Presented at [Steelcon 2023](https://www.steelcon.info/)

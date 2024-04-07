@@ -2,6 +2,8 @@
 title: "Container Security Workshop"
 summary: "Introduction to Docker and Kubernetes security, presented at Securi-Tay 2024"
 date: 2024-03-01T00:00:00Z
+aliases:
+- /talks/Securitay-Container-Security-Workshop/
 ---
 
 Presented at [Securi-Tay 2024](https://www.securi-tay.co.uk/)
