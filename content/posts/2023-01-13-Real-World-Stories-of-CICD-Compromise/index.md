@@ -3,7 +3,7 @@ title: "10 Real-World Stories of CI/CD Compromise"
 date: 2023-01-13T00:00:00Z
 ---
 
-> Originally posted by NCC Group at [https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/]() with multiple authors.
+> Originally posted by NCC Group at [https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/) with multiple authors.
 
 
 Mainstream appreciation for cyberattacks targeting continuous integration and continuous delivery/continuous deployment (CI/CD) pipelines has been gaining momentum. Attackers and defenders increasingly understand that build pipelines are highly-privileged targets with a substantial attack surface.
