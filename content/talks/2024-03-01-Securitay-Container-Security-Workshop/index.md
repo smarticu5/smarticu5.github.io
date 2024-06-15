@@ -4,6 +4,8 @@ summary: "Introduction to Docker and Kubernetes security, presented at Securi-Ta
 date: 2024-03-01T00:00:00Z
 aliases:
 - /talks/Securitay-Container-Security-Workshop/
+cover:
+  image: img/container-security-workshop.png
 ---
 
 Presented at [Securi-Tay 2024](https://www.securi-tay.co.uk/)

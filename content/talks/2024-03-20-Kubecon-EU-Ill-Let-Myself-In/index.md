@@ -2,6 +2,8 @@
 title: "I'll Let Myself In: Kubernetes Privilege Escalation Tactics"
 Summary: "A selection of escalation and persistence tactics in Kubernetes, presented at Kubecon EU 2024"
 date: 2024-03-20T00:00:00Z
+cover:
+  image: img/let-myself-in-cover.png
 ---
 
 Presented at [Kubecon Europe 2024](https://kccnceu2024.sched.com/event/1YeR0)
